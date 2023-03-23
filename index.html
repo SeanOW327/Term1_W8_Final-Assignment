@@ -22,41 +22,31 @@
 
 <body>
     <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light bg-none">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
-              </ul>
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form>
+        <nav class="navbar">
+          <div class="nav-con">
+            <div class="wrapper">
+              <div class="brand"> STREAM</div>
+
+              <div class="nav-links">
+                <div class="link">Recent Releases</div>
+                <div class="link">Popular Albums</div>
+                <a href="pages/about.html"> <div class="link">About Label</div> </a>
+                <a href="pages/my-playlist.html"> <div class="link">My Playlist</div> </a>
+              </div>
             </div>
-          </nav>
+
+            <div class="wrapper">
+              <div class="search">
+                <input placeholder="search...">
+              </div>
+            </div>
+            
+            
+            
+          </div>            
+        </nav>
+
+          <!--Header/Hero-->
 
           <header class="global-padding">
             <div class="hero-content">
@@ -78,12 +68,88 @@
                 </div>
             </div>
           </header>
+
+          <!--Introduction artist-->
+
           <div class="global-padding">
             <div class="featured">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/ZZT5gdiAwQE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <div class="featured_video">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ZZT5gdiAwQE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+              
+              <div class="featured_intro">
+                <h2 class="small-heading"> FEATURED ARTISTS</h2>
+                <h2 class="featured-artist">MASEGO</h2>
+                <p>Lorem ipsum dolor sit amet consectetur. Eleifend cursus suspendisse risus libero in sem mattis. Adipiscing lacus sagittis non sed proin urna nunc nam. Malesuada est aliquam risus neque iaculis. Nulla gravida consequat eros risus. Vulputate sit amet sit ac tincidunt. Mauris felis vitae quis scelerisque in volutpat volutpat.Lorem ipsum dolor sit amet consectetur. Eleifend cursus suspendisse risus libero in sem mattis. </p>
+                
+                <div class="arrow-con">
+
+                  <div class="arrow">
+                    <div class="arrow-icon left-arrow"></div>
+                  </div>
+
+                  <div class="arrow">
+                    <div class="arrow-icon right-arrow"></div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!--Recent Releases section-->
+          <div class="global-padding section-marg">
+            <div class="row">
+              <h2 class="small-heading">RECENT RELEASES</h2>
+              <div class="col-3 ">
+                <div class="album">
+                  <div class="album-hover">
+                    <div class="album-play">
+                      <div></div> 
+                    </div>
+                    <div class="album-info"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-3 ">
+                <div class="album">
+                  <div class="album-hover">
+                    <div class="album-play">
+                      <div></div> 
+                    </div>
+                    <div class="album-info"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-3 ">
+                <div class="album">
+                  <div class="album-hover">
+                    <div class="album-play">
+                      <div></div> 
+                    </div>
+                    <div class="album-info"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-3 ">
+                <div class="album">
+                  <div class="album-hover">
+                    <div class="album-play">
+                      <div></div> 
+                    </div>
+                    <div class="album-info"></div>
+                  </div>
+                </div>
+              </div>
+             
             </div>
           </div>
           
+          <!--Popular Albums Section-->
 
     </div>
    

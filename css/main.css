@@ -1,5 +1,10 @@
 /* Global Styles*/
-h1,h2{font-family: 'Montserrat', sans-serif;}
+body{
+    color: white;
+}
+h1,h2{
+    font-family: 'Montserrat', sans-serif;
+}
 h1{font-weight: 700;}
 h3, p{ font-family: 'Inter', sans-serif;}
 
@@ -7,6 +12,8 @@ h3, p{ font-family: 'Inter', sans-serif;}
     padding-left: 122px;
     padding-right: 122px;
 }
+
+
 
 /* Homepage */
 
@@ -26,11 +33,17 @@ h3, p{ font-family: 'Inter', sans-serif;}
 header{
     width: 100%;
     min-height: 100vh;
-    background-color: lightgray;
+    background-color: #2b2b2b;
 }
 
 .hero-content{
     padding-top: 200px;
+}
+
+.hero-content_buttons{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
 }
 
 .large-button{
@@ -42,6 +55,8 @@ header{
     border-radius: 100px;
     font-size: 24px;
     margin-right: 30px;
+    transition: 0.2s;
+    transition-timing-function: ease-out;
 }
 
 .filled{
@@ -49,10 +64,47 @@ header{
     color: white;
 }
 
+.large-button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.2s;
+    transition-timing-function: ease-out;
+}
+
 .invert{
     border: 2px solid #F20D26;
-    
 }
+
+.large-heart_con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    border: 2px solid #F20D26;
+    transition: 0.2s;
+    transition-timing-function: ease-out;
+    justify-content: center;
+}
+
+.heart-icon{
+    width: 32.88px;
+    height: 28.64px;
+    display: inline-block;
+    background-image: url("../assets/heart\ icon.svg");
+    background-position: center;
+    background-size: cover;
+}
+
+.large-heart_con:hover{
+    background-color: #F20D26;
+    cursor: pointer;
+    transition: 0.2s;
+    transition-timing-function: ease-out;
+}
+
 
 /* Page 2 */
 /* Page 3 */

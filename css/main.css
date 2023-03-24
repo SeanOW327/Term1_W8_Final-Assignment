@@ -19,6 +19,10 @@ h1{font-weight: 700;}
     padding-right: 122px;
 }
 
+.container{
+    max-width: 1430px;
+}
+
 .container-fluid{
     padding: 0;
 }
@@ -43,6 +47,17 @@ h1{font-weight: 700;}
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     margin-right: 60px;
+    color: white;
+    transition: ease-out;
+    transition-duration: 0.2s;
+}
+
+.brand:hover{
+    cursor: pointer;
+    color: #F20D26;
+    transition: ease-out;
+    transition-duration: 0.2s;
+
 }
 
 .nav-links{
@@ -66,6 +81,10 @@ h1{font-weight: 700;}
     transition-duration: 0.2s;
 }
 
+.active{
+    font-weight: 700;
+}
+
 .nav-con{
     width: 100%;
     display: flex;
@@ -86,12 +105,12 @@ h1{font-weight: 700;}
 
 header{
     width: 100%;
-    min-height: 100vh;
+    min-height: 110vh;
     background-color: #2b2b2b;
 }
 
 .hero-content{
-    padding-top: 200px;
+    padding-top: 45vh;
 }
 
 .hero-content_buttons{
@@ -152,13 +171,6 @@ header{
     background-size: cover;
 }
 
-.large-heart_con:hover{
-    background-color: #F20D26;
-    cursor: pointer;
-    transition: 0.2s;
-    transition-timing-function: ease-out;
-}
-
 /* Introduction Section */
 
 .featured{
@@ -187,7 +199,7 @@ header{
     z-index: 1;
 }
 
-.featured-artist{
+.large-heading{
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 40px;
@@ -195,6 +207,8 @@ header{
 
 .small-heading{
     font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 5px;
 }
 
 .arrow-con{
@@ -234,7 +248,7 @@ header{
     background-image: url("../assets/right\ arrow.svg");
 }
 
-.arrow:hover{
+.circle:hover{
     background-color: #F20D26;
     cursor: pointer;
     transition: 0.2s;
@@ -250,7 +264,7 @@ header{
     background-color: lightgray;
 }
 
-.row .small-heading{
+.margin-b{
     margin-bottom: 40px;
 }
 
@@ -277,7 +291,179 @@ header{
     opacity: 100%;
     transition: ease-out;
     transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.album-play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-button{
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    background-image: url("../assets/play_icon.svg");
+    background-position: center;
+    background-size: cover;
+}
+
+.album-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.information{
+    display: inline-block;
+}
+
+.like{
+    display: inline-block;
+}
+
+.artist-name{
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+.album-name{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+.like{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url("../assets/heart_icon_smal\ 1.svg");
+    background-position: center;
+    background-size: cover;
+}
+
+/* Footer */
+
+.small-top-marg{
+    margin-top: 30px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.brand-footer{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+.socials{
+    display: flex;
+}
+
+.social-link{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    transition: ease-out;
+    transition-duration: 0.2s;
+    margin-left: 30px;
+}
+
+.social-link:hover{
+    scale:1.1;
+    transition: ease-out;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.youtube{
+    background-image: url("../assets/youtube.svg");
+}
+
+.facebook{
+    background-image: url("../assets/facebook.svg");
+}
+
+.twitter{
+    background-image: url("../assets/twitter.svg");
+}
+
+.instagram{
+    background-image: url("../assets/instagram.svg");
 }
 
 /* Page 2 */
+/* About content */
+
+.about-content{
+    padding-top: 255px;
+}
+
+.about-info{
+    padding-right: 5%;
+}
+
+.form{
+    padding-left: 5%;
+}
+
+.contact-links{
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 25px;
+}
+
+.contact{
+    width: 190px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: aliceblue;
+    margin-right: 30px;
+}
+
+.form-con{
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    padding: 30px;
+}
+
 /* Page 3 */
+
+/* Playlist Interface */
+
+.playlist-interface{
+    padding-top: 145px;
+}
+
+.playlist_album-cover{
+    width: 100%;
+    background-color: aliceblue;
+    height: 470px;
+}
+
+.playlist_songs{
+    width: 100%;
+    background-color: rgb(47, 100, 146);
+    height: 500px;
+}
+
+.slider-controls{
+    background-color: aliceblue;
+    height: 50px;
+    margin-top: 140px;
+    margin-bottom: 40px;
+}

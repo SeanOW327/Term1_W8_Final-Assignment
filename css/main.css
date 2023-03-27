@@ -92,10 +92,6 @@ h1{font-weight: 700;}
     justify-content: space-between;
 }
 
-.search{
-    
-}
-
 .nav-con .wrapper{
     display: flex;
     align-items: center;
@@ -106,7 +102,17 @@ h1{font-weight: 700;}
 header{
     width: 100%;
     min-height: 110vh;
-    background-color: #2b2b2b;
+    background-image: url("../assets/hero\ image.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-content h1{
+    font-size: 72px;
+}
+
+.hero-content h3{
+    font-size: 36px;
 }
 
 .hero-content{
@@ -285,6 +291,8 @@ header{
     width: 100%;
     height: 70px;
     background-color: rgba(0,0,0,0.8);
+    background-size: cover;
+    background-position: center;
 }
 
 .album:hover .album-hover{
@@ -345,6 +353,19 @@ header{
     background-position: center;
     background-size: cover;
 }
+
+.song-1{ background-image: url("../assets/albums/album01.jpg"); }
+.song-2{ background-image: url("../assets/albums/album02.jpg"); }
+.song-3{ background-image: url("../assets/albums/album03.jpg"); }
+.song-4{ background-image: url("../assets/albums/album04.jpg"); }
+.song-5{ background-image: url("../assets/albums/album05.jpg"); }
+.song-6{ background-image: url("../assets/albums/album06.jpg"); }
+.song-7{ background-image: url("../assets/albums/album07.jpg"); }
+.song-8{ background-image: url("../assets/albums/album08.jpg"); }
+.song-9{ background-image: url("../assets/albums/album09.jpg"); }
+.song-10{ background-image: url("../assets/albums/album10.jpg"); }
+.song-11{ background-image: url("../assets/albums/album11.jpg"); }
+.song-12{ background-image: url("../assets/albums/album12.jpg"); }
 
 /* Footer */
 

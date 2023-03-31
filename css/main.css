@@ -593,8 +593,9 @@ select{
 
 .playlist_album-cover{
     width: 100%;
-    background-color: aliceblue;
-    height: 470px;
+    background-image: url("/assets/favourite-cover.jpg");
+    background-position: center;
+    height: 400px;
 }
 
 .playlist_songs{
@@ -608,4 +609,39 @@ select{
     height: 50px;
     margin-top: 140px;
     margin-bottom: 40px;
+}
+
+.tab-select{
+    margin-bottom: 30px;
+}
+
+.tab{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tab p{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+.underline{
+    width: 50%;
+    height: 4px;
+    background-color: #F20D26;
+    margin-top: 5px;
+}
+
+.tab-on{font-weight: 700;}
+
+.headers{
+    width: 100%;
+    height: 30px;
+    background-color: #f55769;
 }

@@ -107,11 +107,26 @@ h1{font-weight: 700;}
     padding-left: 20px;
     padding-right: 20px;
     color: white;
+    padding-right: 50px;
 }
 
 .search-bar::placeholder{
     color: rgba(255, 255, 255, 0.7);
 }
+
+.wrapper-search{
+    position: relative;
+}
+
+.search-icon{
+    opacity: 80%;
+    position: absolute;
+    right: 20px;
+    top: 8px;
+    cursor: pointer;
+}
+
+
 
 /* Header/hero */
 
